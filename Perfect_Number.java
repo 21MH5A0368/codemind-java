@@ -21,6 +21,7 @@ class sample
         Scanner sc=new Scanner(System.in);
         int n;
         n=sc.nextInt();
+        sc.close();
         if(isperfect(n))
             System.out.println("True");
         else
