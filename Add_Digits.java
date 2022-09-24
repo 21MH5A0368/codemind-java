@@ -14,7 +14,7 @@ class sample
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int n,d,s=0;
+        int n,d;
         n=sc.nextInt();
         sc.close();
         while(n>0)
