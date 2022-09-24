@@ -14,13 +14,12 @@ class sample
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int n,d,s;
+        int n,d,s=0;
         n=sc.nextInt();
         sc.close();
         while(n>0)
         {
-            s=issum(n);
-            d=(int)Math.log10(s)+1;
+            d=(int)Math.log10(issum(n))+1;
             if(d==1)
                 break;
             else
