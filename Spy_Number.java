@@ -37,4 +37,3 @@ class spy
 		sc.close();
 	}
 }
-		
