@@ -4,7 +4,7 @@ class sample
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int x[],n,i,c=0;
+        int i,count=0,x[],n;
         n=sc.nextInt();
         x=new int[n];
         for(i=0;i<n;i++)
@@ -16,10 +16,10 @@ class sample
         {
             if(x[i]%2==0)
             {
-               c++;
+                count++;
             }
         }
-        if(n==c)
+        if(n==count)
             System.out.println("True");
         else
             System.out.println("False");
