@@ -36,9 +36,5 @@ class sample
            System.out.println(i+" "+n/i);
         else
            System.out.println("-1");
-        
     }
 }
-
-
-
