@@ -1,8 +1,10 @@
 import java.util.Scanner;
-class nthprime
+class sample
 {
 	public static boolean isprime(int n)
 	{
+	    if(n<2)
+	        return false;
 		int count=0;
 		for(int i=2;i<=(int)Math.sqrt(n);i++)
 		{
@@ -23,8 +25,6 @@ class nthprime
 		int i,n,m;
 		n=sc.nextInt();
 		m=sc.nextInt();
-		if(n==1)
-		    n=2;
 		for(i=n;i<=m;i++)
 		{
 			if(isprime(i))
