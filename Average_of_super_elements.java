@@ -30,8 +30,8 @@ class sample
             if(x[i]==count)
             {
                 sum=sum+x[i];
-                c++;
                 flag=1;
+                c++;
             }
         }
         avg=sum/c;
