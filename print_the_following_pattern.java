@@ -1,19 +1,17 @@
 import java.util.Scanner;
 class sample{
     public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        int n;
-        n=sc.nextInt();
-        for(int i=0 ; i < n ; i++ ){
-            for(int j=0;j<n;j++){
-                if( j==0 || j==i || j==n-1){
-                    System.out.print("* ");
-                }
-                else{
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
+       Scanner sc=new Scanner(System.in);
+       int n,i,j;
+       n=sc.nextInt();
+       for(i=n;i>0;i--){
+           for(j=1;j<=n-2;j++){
+               System.out.print(j);
+           }
+           for(j=n-3;j>0;j--){
+               System.out.print(j);
+           }
+           System.out.println();
+       }
     }
 }
